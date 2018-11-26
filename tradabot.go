@@ -52,7 +52,6 @@ var userMap = make(map[int]*userInfo)
 
 func main() {
 
-	os.Setenv("botAPI", "700769156:AAHG9K8E_c3eTW_4Sa782CVzIh8WTkgWqlY")
 	// Init b: newBot
 	b, err := tb.NewBot(
 		tb.Settings{
